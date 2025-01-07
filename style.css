@@ -1,0 +1,54 @@
+header, footer{
+    background-color:#9df4e2;
+}
+
+header{
+    height: 60px;
+}
+
+nav, aside{
+    background-color: pink;
+    width:25%
+}
+
+article{
+    background-color: #83aefb;
+    width: 50%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    padding: 1em;
+    text-align: center;
+}
+
+#main{
+    display:flex;
+    height: 300px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    padding: 3px;
+}
+
+
+
+article, nav, aside, header, footer { 
+    padding: 1rem;
+    margin: 3px;
+}
+
